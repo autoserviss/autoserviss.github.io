@@ -1,0 +1,235 @@
+* {
+	box-sizing: border-box
+}
+a:focus {
+	outline: none
+}
+body {
+	display: flex;
+	margin: 0;
+	padding: 0;
+	overflow-x: hidden;
+	background: #253D6E;
+	box-sizing: border-box;
+	font-size: 1.1em
+}
+#body {
+	width: 100%;
+	max-width: 1920px;
+	margin: auto;
+	font-family: Arial, Helvetica, sans-serif
+}
+/* ______________________HEADER____________________________ */
+header {
+	height: 110px;
+	display: grid;
+	grid-template-columns: 120px 300px 1fr 150px;
+	grid-template-rows: 1fr 1fr 1fr;
+	background-color: white;
+	grid-gap: 5px;
+}
+.item {
+	background: white
+}
+.checkeng {
+	grid-column: 1 / 2;
+	grid-row: 1 / span 3;
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: center;
+	align-items: center;
+	object-fit: cover;
+}
+.autoserviss {
+	grid-column: 2 / 2;
+	grid-row: 1 / span 2;
+	list-style: none;
+	display: flex;
+	flex-flow: column nowrap;
+	justify-content: flex-end
+}
+.telephone {
+	grid-column: 2 / 2;
+	grid-row: 3 / span 1;
+	display: flex
+}
+.item-lvru {
+	grid-column: 4 / 4;
+	grid-row: 1 / 3;
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: center;
+	align-items: center
+}
+.autoserviss h1 {
+	padding: 0;
+	margin: 0 0 0 5px;
+	font-size: 28px;
+	font-weight: 900;
+	letter-spacing: 2px
+}
+.autoserviss h2 {
+	padding: 0;
+	margin: 0 0 0 5px;
+	font-size: 20px;
+	font-weight: 900;
+	letter-spacing: 1px
+}
+.link-telephone {
+	font-weight: 900;
+	letter-spacing: 2px;
+	line-height: 1.1em;
+	color: gray;
+	text-decoration: none;
+	padding: 2px 0;
+	margin: 0 0 0 5px;
+}
+.link-telephone:hover {
+	color: blue;
+	text-decoration: underline;
+	transform: skewY(4deg)
+}
+.lv, .ru {
+	border: 1px solid black;
+	padding: 5px 5px 3px 5px;
+	border-radius: 3px;
+	text-decoration: none;
+	color: black;
+	background-color: silver;
+	margin: 0 5px
+}
+.lv:hover, .ru:hover {
+	transform: skewY(10deg)
+}
+.lv-active {
+	opacity: 0.5;
+	cursor: not-allowed
+}
+/* ______________________Main______________________________ */
+.main-grid-container {
+	display: grid;
+	grid-template-columns: 350px auto 170px;
+	grid-template-rows: auto;
+	grid-column-gap: 20px;
+	letter-spacing: 1px
+}
+/* _____________________Sider left_________________________ */
+#sider-left {
+	grid-column: 1 / 1;
+	grid-row: 1 / 1;
+	color: white;
+	margin: 20px
+}
+.publication > a, .publication > span {
+	display: block
+}
+.publication {
+	display: flex;
+	flex-flow: column nowrap;
+	margin: 0;
+	padding: 10px;
+	color: white;
+	border-right: 1px dotted silver
+}
+.publication > a {
+	margin: auto
+}
+.publication img {
+	margin: 5px;
+	opacity: 0.9
+}
+.publication img:hover {
+	transform: scale(1.01);
+	opacity: 1
+}
+/* _____________________Sider right_________________________ */
+#sider-right {
+	grid-column: 3 / 3;
+	display: flex;
+	flex-flow: column nowrap
+}
+#sider-right > div {
+	width: 150px;
+	height: 150px;
+	margin: 10px 0
+}
+.img1 {
+	background-image: url("../servis_image/Autoscope.png");
+	background-size: cover
+}
+.img2 {
+	background-image: url("../servis_image/Bosch.png");
+	background-size: cover
+}
+.img3 {
+	background-image: url("../servis_image/Czapp.png");
+	background-size: cover
+}
+.img4 {
+	background-image: url("../servis_image/VCDS.png");
+	background-size: cover
+}
+.img5 {
+	background-image: url("../servis_image/LaunchX431.png");
+	background-size: cover
+}
+/* _____________________Midle container________________________ */
+#midle_cont, #midle_pakalpojumi {
+	grid-column: 2 / 2;
+	margin: 20px 0;
+	color: white
+}
+#midle_cont div {
+	padding: 7px;
+	margin: 5px 5px 10px 5px;
+	color: white
+}
+.middle_clip img {
+	max-height: 100%;
+	max-width: 100%;
+	object-fit: cover
+}
+h3 {
+	padding-left: 20px
+}
+/* ____________________For Pakalpojumi_______________________ */
+#midle_pakalpojumi a {
+	display: flex;
+	flex-flow: row-reverse wrap;
+	justify-content: flex-end;
+	align-items: flex-start;
+	flex: 1 1 auto;
+	background-color: #D5E1F9;
+	font-size: 18px;
+	color: black;
+	text-decoration: none;
+	margin: 15px;
+	border: 2px solid silver;
+	border-radius: 5px
+}
+#midle_pakalpojumi span {
+	text-align: center;
+	margin-top: 20px
+}
+#midle_pakalpojumi a:hover {
+	opacity: 0.7
+}
+/* ________________For ATP5_kontakti_______________________ */
+#kontakti {
+	display: flex;
+	flex-flow: column nowrap;
+	align-items: center;
+	border: 0px solid red;
+	width: 100%;
+	z-index: 49
+}
+/* _____________________Footer_____________________________ */
+footer {
+	margin: 0;
+	padding: 10px;
+	background-color: #2D343F;
+	height: 200px
+}
+footer p {
+	margin-left: 20px
+}

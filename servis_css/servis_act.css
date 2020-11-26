@@ -1,0 +1,18 @@
+#midle_pakalpojumi {
+	display: none}
+
+#navbar .active-navbar, #navmob .active-navbar{
+	color: rgb(51, 165, 50);
+	cursor: not-allowed}
+
+#navbar a:hover, #navmob .a-mob:hover{
+	color: #EFB700}
+
+#navbar .active-navbar:hover, #navmob .active-navbar:hover{
+	color: #cc0605}
+
+.act .a-mob{
+	height: 50px;
+    transition: height 0.5s;
+	border-top: 1px solid rgba(192,192,192, 0.2);}
+
