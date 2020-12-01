@@ -42,9 +42,9 @@ header {
 	align-items: center;
 	object-fit: cover}
 
-#checkeng-img {
+/*#checkeng-img {
 	display: none
-}
+}*/
 
 .autoserviss {
 	grid-column: 2 / 2;
