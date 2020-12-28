@@ -1,0 +1,93 @@
+
+/* ___________________________Pakalpojumi_______________________ */
+#centr-pakalpojumi {
+	background-color: #3B3B47;
+	width: 100%;
+	min-height: 100vh;
+	margin: 0;
+	padding: 10px
+}
+
+.heading-pakalpojumi {
+	margin-left: 10px;
+	font-size: 1.17em
+}
+
+.pakalpojumi {
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: flex-start;
+	align-items: flex-start;
+	background-color: rgb(245, 245, 255);
+	height: 200px;
+	overflow-y: hidden;
+	font-size: 18px;
+	text-decoration: none;
+	padding: 5px;
+	margin: 10px 10px}
+
+.pakalpojumi img {
+	max-width: 100%;
+	height: auto
+}
+
+.pakalpojumi>img {
+	display: block;
+	height: 180px;
+	margin: 10px}
+
+.pakalpojumi-teksts {
+	height: 100%;
+	display: flex;
+	flex-flow: column nowrap;
+	justify-content: flex-start;
+	align-items: stretch;
+	padding: 0 10px}
+
+.pakalpojumi-teksts p {
+	flex: 1 1 auto;
+	line-height: 120%;
+	overflow-y: hidden;
+	margin-top: 5px}
+
+.pakalpojumi-teksts span:first-child {
+	line-height: 200%;
+}
+
+.benzina-atvert, .dizela-atvert, .elektro-atvert {
+	flex: 0 0 auto;
+	align-self: flex-start;
+	color: blue;
+	text-decoration: underline}
+
+.benzina-atvert:hover, .dizela-atvert:hover, .elektro-atvert:hover {
+	font-weight: bold;
+	cursor: pointer}
+
+/* ___________________________UZŅĒMUMIEM_______________________ */
+.textbox2 {
+	position: relative;
+	display: flex;
+	flex-flow: column nowrap;
+	justify-content: flex-start;
+	align-items: flex-start;
+	background-color: rgb(245, 245, 255);
+	background-image: url("../servis_image/Golf6op7.png");
+	background-repeat: no-repeat;
+    background-size: cover;
+	min-height: 80vh;
+	font-size: 18px;
+	text-decoration: none;
+	padding: 15px;
+	margin: 10px 10px}
+
+.textbox2 p {
+	margin: 10px;
+	padding: 0
+}
+
+.textbox2 li {
+	margin: 0 0 20px 10px;
+	padding: 0
+}
+
