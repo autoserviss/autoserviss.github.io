@@ -247,7 +247,7 @@ header {
 	font-weight: 400;
 	letter-spacing: 2px;
 	align-self: flex-start;
-	margin: 0 0 10px 80px;
+	margin-left: 80px;
 	display: flex
 }
 
