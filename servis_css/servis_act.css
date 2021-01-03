@@ -1,0 +1,29 @@
+
+
+#navbar .active-navbar, #navmob .active-navbar{
+	background-color: rgba(0,0,0,0.4);
+	cursor: not-allowed}
+
+#navbar a:hover, #navmob .a-mob:hover{
+	background-color: rgba(0,0,0,0.4)}
+
+#navbar .active-navbar:hover, #navmob .active-navbar:hover{
+	color: #cc0605}
+
+.act .a-mob{
+	height: 50px;
+    transition: height 0.5s;
+	border-top: 1px solid rgba(192,192,192, 0.2);
+	width: 100%}
+
+/* ---------------------------Pakalpojumi----------------------------------------*/
+
+.act-cenas .pakalpojumi-cenas, .act-benzina .pakalpojumi-benzina, .act-benzina .pakalpojumi-benzina p, .act-dizela .pakalpojumi-dizela, .act-dizela .pakalpojumi-dizela p, .act-elektro .pakalpojumi-elektro, .act-elektro .pakalpojumi-elektro p {
+	height: auto}
+
+.act-benzina .pakalpojumi-benzina>img, .act-dizela .pakalpojumi-dizela>img, .act-elektro .pakalpojumi-elektro>img {
+	display: none}
+
+
+
+
