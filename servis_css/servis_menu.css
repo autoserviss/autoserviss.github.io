@@ -1,0 +1,171 @@
+
+#centr-pakalpojumi {
+	background-color: #3B3B47;
+	width: 100%;
+	min-height: 100vh;
+	margin: 0;
+	padding: 10px
+}
+/* ___________________________Cenas_____________________________ */
+.pakalpojumi-cenas {
+	position: relative;
+	height: auto;
+	min-height: 120px;
+	display: flex;
+	flex-flow: column nowrap;
+	justify-content: flex-start;
+	align-items: flex-start;
+	background-color: rgb(245, 245, 255);
+	font-size: 18px;
+	text-decoration: none;
+	padding: 15px 30px 15px 15px;
+	margin: 10px 10px 35px 10px;
+}
+
+.pakalpojumi-cenas>p {
+	padding: 0 5px;
+	margin: 10px 0;
+	width: 100%;
+	max-width: 1000px
+}
+
+.italic-green {
+	font-style: italic;
+	color: green
+}
+
+.virsraksts-cenas {
+	padding: 15px 10px 5px 10px;
+	font-weight: bold
+}
+
+.cenas-item>span {display: block; padding: 0 10px}
+
+.cenas-item {
+	width: 100%;
+	max-width: 1000px;
+	margin: 10px;
+	display: flex;
+	flex-flow: row nowrap;
+	background-color: white;
+	border: 1px dotted rgba(0, 0, 50, 0.5)
+}
+
+.cenas-p {flex: 1 1 auto}
+
+.cenas-c {
+	flex: 0 0 130px;
+	text-align: center;
+	background-color: rgba(0, 255, 0, 0.1)
+}
+
+/* ___________________________Pakalpojumi_______________________ */
+
+.heading {
+	margin-left: 10px;
+	font-size: 1.17em
+}
+
+.pakalpojumi {
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: flex-start;
+	align-items: flex-start;
+	background-color: rgb(245, 245, 255);
+	height: 137px;
+	overflow-y: hidden;
+	font-size: 18px;
+	text-decoration: none;
+	padding: 5px;
+	margin: 10px 10px
+}
+
+.pakalpojumi>img {
+	height: 100px;
+	margin: 10px
+	}
+
+.pakalpojumi-teksts {
+	height: 100%;
+	display: flex;
+	flex-flow: column nowrap;
+	justify-content: flex-start;
+	align-items: stretch;
+	padding: 0 10px
+}
+
+.pakalpojumi-teksts img {
+	margin: 10px 0 0 30px
+}
+
+.pakalpojumi-teksts>p {
+	max-width: 1200px;
+	flex: 1 1 auto;
+	line-height: 120%;
+	overflow-y: hidden;
+	margin: 0}
+
+.pakalpojumi-teksts a:hover {
+	cursor: zoom-in;
+	transform: scale(1.01)
+}
+
+.pakalpojumi-teksts span:first-child {line-height: 215%}
+
+.benzina-atvert, .dizela-atvert, .elektro-atvert, .cenas-atvert {
+	flex: 0 0 auto;
+	align-self: flex-start;
+	color: blue;
+	text-decoration: underline;
+	padding: 2px 0}
+
+.benzina-atvert:hover, .dizela-atvert:hover, .elektro-atvert:hover, .cenas-atvert:hover {
+	font-weight: bold;
+	cursor: pointer}
+
+/* ___________________________UZŅĒMUMIEM_______________________ */
+.textbox2 {
+	position: relative;
+	display: flex;
+	flex-flow: column nowrap;
+	justify-content: flex-start;
+	align-items: flex-start;
+	background-color: rgb(245, 245, 255);
+	background-image: url("../servis_image/Golf6op7.png");
+	background-repeat: no-repeat;
+    background-size: cover;
+	min-height: 80vh;
+	font-size: 18px;
+	text-decoration: none;
+	padding: 15px;
+	margin: 10px 10px}
+
+.textbox2 p {
+	margin: 10px;
+	padding: 0
+}
+
+.textbox2 li {
+	margin: 0 0 20px 10px;
+	padding: 0
+}
+
+/* ___________________________PUBLIKĀCIJAS_______________________ */
+
+.publikacija {
+	height: 60px;
+	width: 468px;
+	display: flex;
+	align-items: center;
+	background-image: url("../servis_image/Emissions2.png");
+	text-decoration: none;
+	padding-left: 13px;
+	margin: 0 0 20px 0
+}
+
+.publikacija-hover:hover {
+	transform: scale(1.01) skewY(1deg)
+}
+
+
+

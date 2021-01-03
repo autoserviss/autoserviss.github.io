@@ -1,0 +1,312 @@
+/* _______________Different media screen______________ */
+
+@media screen and (max-width: 576px){
+	
+	#navbar, .item-lvru, .injectorservice-ua-big {display: none}
+	
+	header {
+		height: 70px;
+		grid-template-columns: 1fr;
+		grid-gap: 0
+	}
+	
+	#logo-img>img {width: 240px}
+
+	#logo-img {
+		grid-column: 1 / 2;
+		align-items: flex-start;
+		padding: 5px
+	}
+	
+	.link-telephone1{
+		padding: 5px 8px;
+		margin-bottom: 5px;
+		margin-left: 5px;
+		border: 1px solid silver;
+		border-radius: 3px}
+	
+	#main {
+		height: auto
+	}
+	
+	.main-virsraksts>h1 {
+		font-size: 26px;
+		margin: 15px 0 10px 0
+		}
+
+	.link-adrese {
+		font-size: 1em;
+		margin: 5px 0 10px 0
+	}
+	
+	.link-adrese>img {
+		transform: scale(0.7)
+	}
+	
+	.main-apraksts {
+		margin: 0;
+		border-radius: 0;
+	}
+	
+	.main-apraksts>h2 {
+		font-size: 1em;
+		font-weight: normal;
+		margin: 10px 0
+	}
+	
+	.section>h3 {
+		padding: 0 50px 10px 30px;
+	}
+
+	.jaunumi-apraksts {
+		width: 100%;
+		margin: 10px 0 0 0;
+	}
+	
+	.populari-container {
+		margin-left: 20px;
+		font-size: 0.9em
+	}
+	
+	.populari-item>img {
+		transform: scale(0.6)
+	}
+
+	#darbalaiks-table {
+		margin: 0 0 20px 20px;
+		font-size: 1em;
+	}
+
+	.link-telephone2 {
+		margin-left: 20px
+	}
+	
+	#centr-kontakti>h3 {
+		margin-left: 30px;
+	}
+	
+	.mapouter {
+		padding: 0
+	}
+	
+	#gmap_canvas {
+		height:500px;
+		}
+	
+/* _______________Pakalpojumi______________ */
+	#centr-pakalpojumi {padding: 10px 0}
+	.pakalpojumi>img {display: none}
+	.pakalpojumi {height: 130px}
+	.pakalpojumi-teksts img {margin-left: 0; width: 75vw}
+	.pakalpojumi {padding: 5px 0; margin: 10px 0}
+	.pakalpojumi-ritosa, .pakalpojumi-bremzes {height: auto}
+	.pakalpojumi-cenas {padding: 15px 20px 15px 5px; margin: 0px 0}
+	.pakalpojumi-teksts span:first-child {line-height: 100%}
+	
+	.benzina-atvert, .dizela-atvert, .elektro-atvert {
+		padding: 8px 0}
+	
+	.cenas-p {flex: 1 1 auto}
+
+	.cenas-c {flex: 0 0 auto}
+	
+	.textbox2 {
+		font-size: 1em;
+		padding: 10px;
+		margin: 5px 0
+	}
+
+	.textbox2 p {margin: 5px}
+
+	.textbox2 li {margin: 0 0 10px -10px}
+	
+	.uzaugsu2 {display: none}
+	
+	.publikacija {
+		height: auto;
+		width: auto}
+	
+	.publikacija>span {padding: 5px 0}
+	
+	.cenas-item {
+		margin: 7px 0;
+		flex-flow: column nowrap
+	}
+}
+
+@media screen and (min-width: 577px) and (max-width: 767px){
+	
+	#navbar, .item-lvru, .injectorservice-ua-big {display: none}
+	
+	header {
+		height: 70px;
+		grid-template-columns: 1fr;
+		grid-gap: 0
+	}
+	
+	#logo-img>img {width: 280px}
+
+	#logo-img {
+		grid-column: 1 / 2;
+		align-items: flex-start;
+		padding: 5px
+	}
+	
+	.link-telephone1{
+		padding: 5px 8px;
+		margin-bottom: 5px;
+		margin-left: 5px;
+		border: 1px solid silver;
+		border-radius: 3px}
+	
+	#main {
+		height: 460px
+	}
+	
+	.main-virsraksts>h1 {
+		font-size: 30px;
+		}
+
+	.link-adrese {
+		font-size: 1em
+	}
+	
+	.link-adrese>img {
+		transform: scale(0.8)
+	}
+	
+	.main-apraksts {
+		margin: 5px 0;
+		border-radius: 0;
+	}
+	
+	.main-apraksts>h2 {
+		font-size: 1em;
+		font-weight: normal;
+		margin: 10px 0
+	}
+	
+	.section>h3 {
+		padding: 0 50px 10px 30px;
+	}
+
+	.jaunumi-apraksts {
+		width: 100%;
+		min-width: 450px;
+		margin: 10px 0 0 0;
+	}
+	
+	.populari-container {
+		margin-left: 30px;
+		font-size: 0.9em
+	}
+	
+	.populari-item>img {
+		transform: scale(0.8)
+	}
+
+	#darbalaiks-table {
+		margin: 0 0 20px 30px;
+		font-size: 1em;
+	}
+
+	.link-telephone2 {
+		margin-left: 30px
+	}
+	
+	#centr-kontakti>h3 {
+		margin-left: 30px;
+	}
+	
+	.mapouter {
+		padding: 0
+	}
+	
+	#gmap_canvas {
+		height:500px;
+		}
+	
+/* _______________Pakalpojumi______________ */
+	.pakalpojumi>img {display: none}
+	.pakalpojumi-benzina, .pakalpojumi-dizela, .pakalpojumi-elektro {height: 126px}
+	.pakalpojumi-teksts img {margin-left: 0; width: 85vw}
+	.pakalpojumi {padding: 5px 0; margin: 10px 0}
+	.pakalpojumi-ritosa, .pakalpojumi-bremzes {height: auto}
+	.pakalpojumi-cenas {padding: 15px 20px 15px 5px; margin: 0px 0}
+	
+	.benzina-atvert, .dizela-atvert, .elektro-atvert {
+		padding: 8px 0}
+	
+	.textbox2 {
+		font-size: 18px;
+		padding: 15px;
+		margin: 10px 0
+	}
+
+	.textbox2 p {margin: 5px}
+
+	.textbox2 li {margin: 0 0 10px 0}
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px){
+	
+	#navbar, .item-lvru, .injectorservice-ua-small {display: none}
+	
+	#logo-img>img {width: 80%}
+	
+	header {
+		height: 80px
+	}
+
+	#logo-img {
+		align-items: flex-start;
+		padding: 5px
+	}
+	
+	.link-telephone1{
+		padding: 5px 8px;
+		margin-bottom: 5px;
+		margin-left: 5px;
+		border: 1px solid silver;
+		border-radius: 3px
+	}
+	
+	#main {
+		height: 460px
+	}
+	
+	.main-virsraksts>h1 {
+		font-size: 40px;
+		}
+
+	.link-adrese {
+		font-size: 1.1em
+	}
+	
+	.main-apraksts>h2 {
+		font-size: 1.05em;
+	}
+	
+/* _______________Pakalpojumi______________ */
+	.pakalpojumi>img {display: none}
+	.pakalpojumi-benzina, .pakalpojumi-dizela, .pakalpojumi-elektro {height: 128px}
+	.pakalpojumi-ritosa, .pakalpojumi-bremzes {height: auto}
+	.benzina-atvert, .dizela-atvert, .elektro-atvert {
+		padding: 8px 0}
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px){
+	
+	#navmob, .injectorservice-ua-small {display: none}
+	
+	#logo-img>img {width: 90%}
+	
+}
+
+@media screen and (min-width: 1201px){
+	
+	#navmob, .injectorservice-ua-small {display: none}
+	
+}
+
+
