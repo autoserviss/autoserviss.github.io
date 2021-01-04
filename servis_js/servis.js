@@ -91,6 +91,49 @@ $(window).on('beforeunload', function(){
 			}
 			else {$('*').removeClass('act-elektro');$(".elektro-atvert").text("Lasīt tālāk:");}
 	});
+	
+//----------------- RU cenas-atvert click event -----------------------------
+	$(".remove-cenas-ru").css({"display": "none"});
+	$('.cenas-atvert-ru').click(function() {
+		$(this).toggleClass('act-cenas');
+			if($(this).hasClass('act-cenas')) {
+				$('*').addClass('act-cenas');
+				$(".cenas-atvert-ru").text("Закрыть:");
+				$(".remove-cenas-ru").css({"display": "block"});
+				$('.remove-vai-ru').empty();
+			}
+			else {$('*').removeClass('act-cenas');$(".cenas-atvert-ru").text("Читать дальше:");$('.remove-vai-ru').text("Или ");$(".remove-cenas-ru").css({"display": "none"});}
+	});
+	
+//----------------- RU benzina-atvert click event -----------------------------
+	$('.benzina-atvert-ru').click(function() {
+		$(this).toggleClass('act-benzina');
+			if($(this).hasClass('act-benzina')) {
+				$('*').addClass('act-benzina');
+				$(".benzina-atvert-ru").text("Закрыть:");
+			}
+			else {$('*').removeClass('act-benzina');$(".benzina-atvert-ru").text("Читать дальше:");}
+	});
+
+//----------------- RU dizela-atvert click event -----------------------------
+	$('.dizela-atvert-ru').click(function() {
+		$(this).toggleClass('act-dizela');
+			if($(this).hasClass('act-dizela')) {
+				$('*').addClass('act-dizela');
+				$(".dizela-atvert-ru").text("Закрыть:");
+			}
+			else {$('*').removeClass('act-dizela');$(".dizela-atvert-ru").text("Читать дальше:");}
+	});
+
+//----------------- RU elektro-atvert click event -----------------------------
+	$('.elektro-atvert-ru').click(function() {
+		$(this).toggleClass('act-elektro');
+			if($(this).hasClass('act-elektro')) {
+				$('*').addClass('act-elektro');
+				$(".elektro-atvert-ru").text("Закрыть:");
+			}
+			else {$('*').removeClass('act-elektro');$(".elektro-atvert-ru").text("Читать дальше:");}
+	});
 
 //--------------------jquery end---------------------------------------
 });
