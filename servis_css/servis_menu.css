@@ -51,6 +51,12 @@
 	border: 1px dotted rgba(0, 0, 50, 0.5)
 }
 
+.cenas-paragraph {
+	width: 100%;
+	max-width: 1000px;
+	margin: 0 10px;
+}
+
 .cenas-p {flex: 1 1 auto}
 
 .cenas-c {
