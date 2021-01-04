@@ -65,7 +65,7 @@ header {
 	display: flex
 }
 
-.link-telephone1>span1 {
+.link-telephone1>span {
 	display: block
 }
 
@@ -249,10 +249,6 @@ header {
 	align-self: flex-start;
 	margin-left: 80px;
 	display: flex
-}
-
-.link-telephone2>span1 {
-	display: block
 }
 
 .link-telephone2:hover {
