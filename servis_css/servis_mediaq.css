@@ -105,7 +105,7 @@
 	.pakalpojumi-cenas {padding: 15px 5px; margin: 0}
 	.pakalpojumi-teksts span:first-child {line-height: 100%}
 	
-	.benzina-atvert, .dizela-atvert, .elektro-atvert {
+	.benzina-atvert, .dizela-atvert, .elektro-atvert, .benzina-atvert-ru, .dizela-atvert-ru, .elektro-atvert-ru {
 		padding: 8px 0}
 	
 	.cenas-p {flex: 1 1 auto}
@@ -126,7 +126,8 @@
 	
 	.publikacija {
 		height: auto;
-		width: auto}
+		width: 85vw;
+		max-width: 468px}
 	
 	.publikacija>span {padding: 5px 0}
 	
@@ -236,7 +237,7 @@
 	.pakalpojumi-ritosa, .pakalpojumi-bremzes {height: auto}
 	.pakalpojumi-cenas {padding: 15px 20px 15px 5px; margin: 0px 0}
 	
-	.benzina-atvert, .dizela-atvert, .elektro-atvert {
+	.benzina-atvert, .dizela-atvert, .elektro-atvert, .benzina-atvert-ru, .dizela-atvert-ru, .elektro-atvert-ru {
 		padding: 8px 0}
 	
 	.textbox2 {
@@ -293,7 +294,7 @@
 	.pakalpojumi>img {display: none}
 	.pakalpojumi-benzina, .pakalpojumi-dizela, .pakalpojumi-elektro {height: 128px}
 	.pakalpojumi-ritosa, .pakalpojumi-bremzes {height: auto}
-	.benzina-atvert, .dizela-atvert, .elektro-atvert {
+	.benzina-atvert, .dizela-atvert, .elektro-atvert, .benzina-atvert-ru, .dizela-atvert-ru, .elektro-atvert-ru {
 		padding: 8px 0}
 }
 
