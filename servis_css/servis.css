@@ -94,6 +94,7 @@ header {
 
 .main-virsraksts>h1 {
 	font-size: 42px;
+	text-shadow: 2px 2px 2px #09142C;
 }
 
 .link-adrese {
@@ -127,6 +128,7 @@ header {
 	margin: 10px;
 	font-size: 18px;
 	letter-spacing: 1px;
+	text-shadow: 1px 1px 1px black;
 	list-style-position: inside;
 	list-style: none
 }
