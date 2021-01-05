@@ -123,7 +123,7 @@
 	align-self: flex-start;
 	color: blue;
 	text-decoration: underline;
-	padding: 2px 0}
+	padding: 13px 0}
 
 .benzina-atvert:hover, .dizela-atvert:hover, .elektro-atvert:hover, .benzina-atvert-ru:hover, .dizela-atvert-ru:hover, .elektro-atvert-ru:hover, .cenas-atvert:hover, .cenas-atvert-ru:hover {
 	font-weight: bold;
