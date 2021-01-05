@@ -11,3 +11,4 @@ https://autoserviss.github.io/pakalpojumi-ru.html
 https://autoserviss.github.io/uznemumiem-ru.html
 https://autoserviss.github.io/publikacijas-ru.html
 https://autoserviss.github.io/kontakti-ru.html
+https://autoserviss.github.io/servis_pdf/OksalisAutoCenasRU.pdf
