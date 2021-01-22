@@ -24,6 +24,7 @@
 	flex-flow: row nowrap;
 	align-items: center;
 	font-size: 18px;
+	text-shadow: 1px 1px 1px #09142C;
 	letter-spacing: 2px;
 	border-left: 1px solid #78839A;
 	text-decoration: none;

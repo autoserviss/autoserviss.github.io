@@ -31,7 +31,7 @@ body {
 
 /* ______________________HEADER____________________________ */
 header {
-	height: 70px;
+	height: 60px;
 	display: grid;
 	grid-template-columns: 420px 1fr;
 	grid-template-rows: 1fr 35px;
@@ -94,6 +94,7 @@ header {
 
 .main-virsraksts>h1 {
 	font-size: 42px;
+	font-weight: 400;
 	text-shadow: 2px 2px 2px #09142C;
 }
 
